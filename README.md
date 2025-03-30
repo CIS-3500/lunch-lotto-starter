@@ -13,7 +13,7 @@ Choose one of the following enhancements to implement:
 
 1. **History Feature**: Maintain a log of all restaurants chosen by the user.
 2. **Alternative API Integration**: Replace Google Maps API with another restaurant data provider.
-3. **Progress Indicator**: Add a progress bar to indicate the status of API calls.
+3. **Query by type of retaurant**: Allow the user to randomly be suggested a restaurant of their chosen category.
 4. **Custom Feature**: Propose a unique feature (requires instructor/TA approval).
 
 ## Getting Started
