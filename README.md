@@ -12,9 +12,36 @@ Lunch Lotto is a Chrome extension that helps users decide where to eat by random
 Choose one of the following enhancements to implement:
 
 1. **History Feature**: Maintain a log of all restaurants chosen by the user.
+   - Create a storage mechanism using Chrome's `chrome.storage.local` API
+   - Add functionality to save each selected restaurant with timestamp
+   - Implement a UI panel to display history entries
+   - Add options to clear history or remove individual entries
+
 2. **Alternative API Integration**: Replace Google Maps API with another restaurant data provider.
+   - Research alternative APIs (Yelp, Foursquare, OpenTable, etc.)
+   - Register for API credentials with the chosen provider
+   - Refactor the data fetching logic to use the new API
+   - Update the data parsing to match the new API's response format
+   - Modify the UI to accommodate any new data fields
+
 3. **Progress Indicator**: Add a progress bar to indicate the status of API calls.
-4. **Custom Feature**: Propose a unique feature (requires instructor/TA approval).
+   - Design a progress bar component that fits the extension's UI
+   - Implement event listeners for API call start, progress, and completion
+   - Add animation for smoother visual feedback
+   - Include error state visualization for failed requests
+
+4. **Caching Mechanism**: Add a caching mechanism to the API calls so that on reload of the page, another API call doesn't have to be made.
+   - Implement cache storage using Chrome's storage API or IndexedDB
+   - Add logic to check cache before making new API calls
+   - Set appropriate cache expiration times
+   - Add cache invalidation for location changes
+   - Include a manual refresh option to bypass cache
+
+5. **Custom Feature**: Propose a unique feature (requires instructor/TA approval).
+   - Submit a brief proposal document outlining your feature idea
+   - Include implementation approach and technical requirements
+   - Get explicit approval before beginning development
+   - Document your implementation process
 
 ## Getting Started
 
